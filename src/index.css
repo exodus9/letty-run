@@ -1,76 +1,166 @@
+/* Import fun fonts - must be at the top */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Fredoka:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
+    /* Bright & Bubbly Idol Theme */
+    --background: 280 100% 98%;
+    --foreground: 280 40% 20%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 280 40% 20%;
 
-    --popover: 0 0% 7%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 280 40% 20%;
 
-    --primary: 142 70% 45%;
+    --primary: 320 85% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 200 85% 55%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 280 20% 92%;
+    --muted-foreground: 280 20% 45%;
 
-    --accent: 142 70% 45%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 100% 55%;
+    --accent-foreground: 280 40% 20%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 142 70% 45%;
+    --border: 280 30% 85%;
+    --input: 280 30% 90%;
+    --ring: 320 85% 60%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Custom tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(142 70% 45%) 0%, hsl(160 60% 40%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 6%) 0%, hsl(0 0% 4%) 100%);
-    --glow-primary: 0 0 60px hsl(142 70% 45% / 0.3);
-    --shadow-elevated: 0 20px 40px -12px hsl(0 0% 0% / 0.5);
+    /* Idol game specific colors - brighter and more vibrant */
+    --idol-pink: 320 90% 65%;
+    --idol-purple: 280 75% 68%;
+    --idol-blue: 200 90% 60%;
+    --idol-yellow: 45 100% 60%;
+    --idol-mint: 160 70% 65%;
+    --idol-coral: 15 85% 68%;
+    --game-bg: 280 100% 98%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(320 85% 60%), hsl(280 70% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(200 85% 55%), hsl(160 60% 60%));
+    --gradient-fun: linear-gradient(135deg, hsl(45 100% 55%), hsl(10 80% 65%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(280 40% 70% / 0.3);
+    --shadow-pop: 0 8px 30px hsl(320 85% 60% / 0.4);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 280 40% 20%;
+    --sidebar-primary: 320 85% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 280 20% 95%;
+    --sidebar-accent-foreground: 280 40% 20%;
+    --sidebar-border: 280 30% 85%;
+    --sidebar-ring: 320 85% 60%;
   }
+}
 
+@layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Outfit', sans-serif;
+    @apply bg-background text-foreground;
   }
 }
 
+/* Custom utilities */
 @layer utilities {
-  .text-gradient {
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  .font-fun {
+    font-family: 'Baloo 2', cursive;
   }
 
-  .glow-primary {
-    box-shadow: var(--glow-primary);
+  .font-bubble {
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+  
+  .text-idol-pink {
+    color: hsl(var(--idol-pink));
+  }
+  
+  .text-idol-purple {
+    color: hsl(var(--idol-purple));
   }
 
-  .bg-gradient-subtle {
-    background: var(--gradient-subtle);
+  .text-idol-blue {
+    color: hsl(var(--idol-blue));
+  }
+
+  .text-idol-yellow {
+    color: hsl(var(--idol-yellow));
+  }
+
+  .text-idol-mint {
+    color: hsl(var(--idol-mint));
+  }
+
+  .text-idol-coral {
+    color: hsl(var(--idol-coral));
+  }
+  
+  .bg-idol-pink {
+    background-color: hsl(var(--idol-pink));
+  }
+
+  .bg-idol-purple {
+    background-color: hsl(var(--idol-purple));
+  }
+
+  .bg-idol-blue {
+    background-color: hsl(var(--idol-blue));
+  }
+
+  .bg-idol-yellow {
+    background-color: hsl(var(--idol-yellow));
+  }
+
+  .bg-idol-mint {
+    background-color: hsl(var(--idol-mint));
+  }
+
+  .bg-idol-coral {
+    background-color: hsl(var(--idol-coral));
+  }
+
+  .animate-bounce-soft {
+    animation: bounce-soft 1s ease-in-out infinite;
+  }
+
+  .animate-wiggle {
+    animation: wiggle 0.5s ease-in-out;
+  }
+
+  .animate-pop {
+    animation: pop 0.3s ease-out;
   }
 }
 
-@keyframes float {
+@keyframes bounce-soft {
   0%, 100% {
     transform: translateY(0);
   }
@@ -79,19 +169,75 @@
   }
 }
 
-@keyframes pulse-glow {
-  0%, 100% {
-    opacity: 0.4;
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
   }
   50% {
-    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+@keyframes fall {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100vh);
+  }
 }
 
-.animate-pulse-glow {
-  animation: pulse-glow 3s ease-in-out infinite;
+@keyframes bounceAndFade {
+  0% {
+    transform: scale(0.5) translateY(0);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2) translateY(-20px);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1) translateY(-30px);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1.1) translateY(-35px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) translateY(-50px);
+    opacity: 0;
+  }
+}
+
+/* Disable text selection for game */
+.game-container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Optimize animations for mobile */
+@media (hover: none) and (pointer: coarse) {
+  * {
+    transition: none !important;
+  }
+  
+  .game-container * {
+    transition: transform 0.1s ease-out !important;
+  }
 }

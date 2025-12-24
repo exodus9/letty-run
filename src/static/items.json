@@ -1,0 +1,1402 @@
+[
+  {
+    "name_ko": "셔누_몬스타엑스",
+    "name_en": "Shownu_MONSTA X",
+    "name_jp": "ショヌ_MONSTA X",
+    "name_zh_tw": "Shownu_MONSTA X",
+    "name_zh_cn": "Shownu_MONSTA X"
+  },
+  {
+    "name_ko": "세훈_EXO",
+    "name_en": "Sehun_EXO",
+    "name_jp": "セフン_EXO",
+    "name_zh_tw": "世勳_EXO",
+    "name_zh_cn": "世勋_EXO"
+  },
+  {
+    "name_ko": "지민_방탄소년단",
+    "name_en": "Jimin_BTS",
+    "name_jp": "ジミン_BTS",
+    "name_zh_tw": "智旻_防彈少年團",
+    "name_zh_cn": "智旻_防弹少年团"
+  },
+  {
+    "name_ko": "정국_방탄소년단",
+    "name_en": "Jungkook_BTS",
+    "name_jp": "ジョングク_BTS",
+    "name_zh_tw": "柾國_防彈少年團",
+    "name_zh_cn": "柾国_防弹少年团"
+  },
+  {
+    "name_ko": "뷔_방탄소년단",
+    "name_en": "V_BTS",
+    "name_jp": "V_BTS",
+    "name_zh_tw": "V_防彈少年團",
+    "name_zh_cn": "V_防弹少年团"
+  },
+  {
+    "name_ko": "제이홉_방탄소년단",
+    "name_en": "j-hope_BTS",
+    "name_jp": "j-hope_BTS",
+    "name_zh_tw": "J-hope_防彈少年團",
+    "name_zh_cn": "J-hope_防弹少年团"
+  },
+  {
+    "name_ko": "니키_ENHYPEN",
+    "name_en": "NI-KI_ENHYPEN",
+    "name_jp": "ニキ_ENHYPEN",
+    "name_zh_tw": "NI-KI_ENHYPEN",
+    "name_zh_cn": "NI-KI_ENHYPEN"
+  },
+  {
+    "name_ko": "노아_플레이브",
+    "name_en": "Noah_PLAVE",
+    "name_jp": "ノア_PLAVE",
+    "name_zh_tw": "諾亞_PLAVE",
+    "name_zh_cn": "诺亚_PLAVE"
+  },
+  {
+    "name_ko": "진_방탄소년단",
+    "name_en": "Jin_BTS",
+    "name_jp": "ジン_BTS",
+    "name_zh_tw": "Jin_防彈少年團",
+    "name_zh_cn": "Jin_防弹少年团"
+  },
+  {
+    "name_ko": "문빈_아스트로",
+    "name_en": "Moonbin_ASTRO",
+    "name_jp": "ムンビン_ASTRO",
+    "name_zh_tw": "文彬_ASTRO",
+    "name_zh_cn": "文彬_ASTRO"
+  },
+  {
+    "name_ko": "허씬롱_알파드라이브원",
+    "name_en": "He Xinlong_ALPHA DRIVE ONE",
+    "name_jp": "ホー・シンロン_ALPHA DRIVE ONE",
+    "name_zh_tw": "賀鑫隆_ALPHA DRIVE ONE",
+    "name_zh_cn": "贺鑫隆_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "슈가_방탄소년단",
+    "name_en": "SUGA_BTS",
+    "name_jp": "SUGA_BTS",
+    "name_zh_tw": "SUGA_防彈少年團",
+    "name_zh_cn": "SUGA_防弹少年团"
+  },
+  {
+    "name_ko": "RM_방탄소년단",
+    "name_en": "RM_BTS",
+    "name_jp": "RM_BTS",
+    "name_zh_tw": "RM_防彈少年團",
+    "name_zh_cn": "RM_防弹少年团"
+  },
+  {
+    "name_ko": "현진_Stray Kids",
+    "name_en": "Hyunjin_Stray Kids",
+    "name_jp": "ヒョンジン_Stray Kids",
+    "name_zh_tw": "鉉辰_Stray Kids",
+    "name_zh_cn": "铉辰_Stray Kids"
+  },
+  {
+    "name_ko": "케이_앤팀",
+    "name_en": "K_&TEAM",
+    "name_jp": "ケイ_&TEAM",
+    "name_zh_tw": "K_&TEAM",
+    "name_zh_cn": "K_&TEAM"
+  },
+  {
+    "name_ko": "이상원_알파드라이브원",
+    "name_en": "Lee Sangwon_ALPHA DRIVE ONE",
+    "name_jp": "イサンウォン_ALPHA DRIVE ONE",
+    "name_zh_tw": "李相沅_ALPHA DRIVE ONE",
+    "name_zh_cn": "李相沅_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "김준서_알파드라이브원",
+    "name_en": "Kim Junseo_ALPHA DRIVE ONE",
+    "name_jp": "キム・ジュンソ_ALPHA DRIVE ONE",
+    "name_zh_tw": "金俊抒_ALPHA DRIVE ONE",
+    "name_zh_cn": "金俊抒_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "한준_n.SSign",
+    "name_en": "Hanjun_n.SSign",
+    "name_jp": "ハンジュン_n.SSign",
+    "name_zh_tw": "漢俊_n.SSign",
+    "name_zh_cn": "汉俊_n.SSign"
+  },
+  {
+    "name_ko": "이리오_알파드라이브원",
+    "name_en": "Lee Leo_ALPHA DRIVE ONE",
+    "name_jp": "イリオ_ALPHA DRIVE ONE",
+    "name_zh_tw": "李理悟_ALPHA DRIVE ONE",
+    "name_zh_cn": "李理悟_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "장하오_제로베이스원",
+    "name_en": "Zhang Hao_ZEROBASEONE",
+    "name_jp": "ジャン・ハオ_ZEROBASEONE",
+    "name_zh_tw": "章昊_ZEROBASEONE",
+    "name_zh_cn": "章昊_ZEROBASEONE"
+  },
+  {
+    "name_ko": "윈터_에스파",
+    "name_en": "Winter_aespa",
+    "name_jp": "ウィンター_aespa",
+    "name_zh_tw": "Winter_aespa",
+    "name_zh_cn": "Winter_aespa"
+  },
+  {
+    "name_ko": "카이_EXO",
+    "name_en": "Kai_EXO",
+    "name_jp": "カイ_EXO",
+    "name_zh_tw": "Kai_EXO",
+    "name_zh_cn": "Kai_EXO"
+  },
+  {
+    "name_ko": "후마_앤팀",
+    "name_en": "Fuma_&TEAM",
+    "name_jp": "フウマ_&TEAM",
+    "name_zh_tw": "Fuma_&TEAM",
+    "name_zh_cn": "Fuma_&TEAM"
+  },
+  {
+    "name_ko": "차은우_아스트로",
+    "name_en": "Eunwoo_ASTRO",
+    "name_jp": "チャ･ウヌ_ASTRO",
+    "name_zh_tw": "車銀優_ASTRO",
+    "name_zh_cn": "车银优_ASTRO"
+  },
+  {
+    "name_ko": "태현_투모로우바이투게더",
+    "name_en": "Taehyun_TOMORROW X TOGETHER",
+    "name_jp": "テヒョン_TOMORROW X TOGETHER",
+    "name_zh_tw": "太顯_TOMORROW X TOGETHER",
+    "name_zh_cn": "太显_TOMORROW X TOGETHER"
+  },
+  {
+    "name_ko": "G-DRAGON_빅뱅",
+    "name_en": "G-DRAGON_BIGBANG",
+    "name_jp": "G-DRAGON_BIGBANG",
+    "name_zh_tw": "G-DRAGON_BIGBANG",
+    "name_zh_cn": "G-DRAGON_BIGBANG"
+  },
+  {
+    "name_ko": "코퍼_BUS",
+    "name_en": "Copper_BUS",
+    "name_jp": "Copper_BUS",
+    "name_zh_tw": "Copper_BUS",
+    "name_zh_cn": "Copper_BUS"
+  },
+  {
+    "name_ko": "연준_투모로우바이투게더",
+    "name_en": "Yeonjun_TOMORROW X TOGETHER",
+    "name_jp": "ヨンジュン_TOMORROW X TOGETHER",
+    "name_zh_tw": "然竣_TOMORROW X TOGETHER",
+    "name_zh_cn": "然竣_TOMORROW X TOGETHER"
+  },
+  {
+    "name_ko": "쯔위_TWICE",
+    "name_en": "Tzuyu_TWICE",
+    "name_jp": "ツウィ_TWICE",
+    "name_zh_tw": "子瑜_TWICE",
+    "name_zh_cn": "子瑜_TWICE"
+  },
+  {
+    "name_ko": "아르노_알파드라이브원",
+    "name_en": "Arno_ALPHA DRIVE ONE",
+    "name_jp": "Arno_ALPHA DRIVE ONE",
+    "name_zh_tw": "Arno_ALPHA DRIVE ONE",
+    "name_zh_cn": "Arno_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "진호_펜타곤",
+    "name_en": "Jinho_PENTAGON",
+    "name_jp": "ジノ_PENTAGON",
+    "name_zh_tw": "珍虎_PENTAGON",
+    "name_zh_cn": "珍虎_PENTAGON"
+  },
+  {
+    "name_ko": "지수_BLACKPINK",
+    "name_en": "Jisoo_BLACKPINK",
+    "name_jp": "ジス_BLACKPINK",
+    "name_zh_tw": "智秀_BLACKPINK",
+    "name_zh_cn": "智秀_BLACKPINK"
+  },
+  {
+    "name_ko": "범규_투모로우바이투게더",
+    "name_en": "Beomgyu_TOMORROW X TOGETHER",
+    "name_jp": "ボムギュ_TOMORROW X TOGETHER",
+    "name_zh_tw": "杋圭_TOMORROW X TOGETHER",
+    "name_zh_cn": "杋圭_TOMORROW X TOGETHER"
+  },
+  {
+    "name_ko": "성훈_ENHYPEN",
+    "name_en": "Sunghoon_ENHYPEN",
+    "name_jp": "ソンフン_ENHYPEN",
+    "name_zh_tw": "成訓_ENHYPEN",
+    "name_zh_cn": "成训_ENHYPEN"
+  },
+  {
+    "name_ko": "로제_BLACKPINK",
+    "name_en": "ROSÉ_BLACKPINK",
+    "name_jp": "ロゼ_BLACKPINK",
+    "name_zh_tw": "ROSÉ_BLACKPINK",
+    "name_zh_cn": "ROSÉ_BLACKPINK"
+  },
+  {
+    "name_ko": "디오_EXO",
+    "name_en": "D.O._EXO",
+    "name_jp": "ディオ_EXO",
+    "name_zh_tw": "D.O._EXO",
+    "name_zh_cn": "D.O._EXO"
+  },
+  {
+    "name_ko": "카와시리 렌_JO1",
+    "name_en": "Kawashiri Ren_JO1",
+    "name_jp": "川尻蓮_JO1",
+    "name_zh_tw": "川尻蓮_JO1",
+    "name_zh_cn": "川尻蓮_JO1"
+  },
+  {
+    "name_ko": "하루아_앤팀",
+    "name_en": "Harua_&TEAM",
+    "name_jp": "ハルア_&TEAM",
+    "name_zh_tw": "Harua_&TEAM",
+    "name_zh_cn": "Harua_&TEAM"
+  },
+  {
+    "name_ko": "정한_세븐틴",
+    "name_en": "Jeonghan_SEVENTEEN",
+    "name_jp": "ジョンハン_SEVENTEEN",
+    "name_zh_tw": "淨漢_SEVENTEEN",
+    "name_zh_cn": "净汉_SEVENTEEN"
+  },
+  {
+    "name_ko": "필릭스_Stray Kids",
+    "name_en": "Felix_Stray Kids",
+    "name_jp": "フィリックス_Stray Kids",
+    "name_zh_tw": "Felix_Stray Kids",
+    "name_zh_cn": "Felix_Stray Kids"
+  },
+  {
+    "name_ko": "김건우_알파드라이브원",
+    "name_en": "Kim Geonwoo_ALPHA DRIVE ONE",
+    "name_jp": "キムゴヌ_ALPHA DRIVE ONE",
+    "name_zh_tw": "金虔佑_ALPHA DRIVE ONE",
+    "name_zh_cn": "金虔佑_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "희승_ENHYPEN",
+    "name_en": "Heeseung_ENHYPEN",
+    "name_jp": "ヒスン_ENHYPEN",
+    "name_zh_tw": "羲承_ENHYPEN",
+    "name_zh_cn": "羲承_ENHYPEN"
+  },
+  {
+    "name_ko": "조우안신_알파드라이브원",
+    "name_en": "Zhou Anxin_ALPHA DRIVE ONE",
+    "name_jp": "ジョウアンシン_ALPHA DRIVE ONE",
+    "name_zh_tw": "周安信_ALPHA DRIVE ONE",
+    "name_zh_cn": "周安信_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "한_Stray Kids",
+    "name_en": "HAN_Stray Kids",
+    "name_jp": "ハン_Stray Kids",
+    "name_zh_tw": "HAN_Stray Kids",
+    "name_zh_cn": "HAN_Stray Kids"
+  },
+  {
+    "name_ko": "카사하라 모모나_ME:I",
+    "name_en": "Kasahara Momona_ME:I",
+    "name_jp": "笠原桃奈_ME:I",
+    "name_zh_tw": "笠原桃奈_ME:I",
+    "name_zh_cn": "笠原桃奈_ME:I"
+  },
+  {
+    "name_ko": "성한빈_제로베이스원",
+    "name_en": "Sung Hanbin_ZEROBASEONE",
+    "name_jp": "ソン・ハンビン_ZEROBASEONE",
+    "name_zh_tw": "成韓彬_ZEROBASEONE",
+    "name_zh_cn": "成韩彬_ZEROBASEONE"
+  },
+  {
+    "name_ko": "승민_Stray Kids",
+    "name_en": "Seungmin_Stray Kids",
+    "name_jp": "スンミン_Stray Kids",
+    "name_zh_tw": "昇玟_Stray Kids",
+    "name_zh_cn": "升玟_Stray Kids"
+  },
+  {
+    "name_ko": "디노_세븐틴",
+    "name_en": "Dino_SEVENTEEN",
+    "name_jp": "ディノ_SEVENTEEN",
+    "name_zh_tw": "Dino_SEVENTEEN",
+    "name_zh_cn": "Dino_SEVENTEEN"
+  },
+  {
+    "name_ko": "제이크_ENHYPEN",
+    "name_en": "Jake_ENHYPEN",
+    "name_jp": "ジェイク_ENHYPEN",
+    "name_zh_tw": "Jake_ENHYPEN",
+    "name_zh_cn": "Jake_ENHYPEN"
+  },
+  {
+    "name_ko": "진진_아스트로",
+    "name_en": "Jinjin_ASTRO",
+    "name_jp": "ジンジン_ASTRO",
+    "name_zh_tw": "Jinjin_ASTRO",
+    "name_zh_cn": "Jinjin_ASTRO"
+  },
+  {
+    "name_ko": "백현_EXO",
+    "name_en": "Baekhyun_EXO",
+    "name_jp": "ベクヒョン_EXO",
+    "name_zh_tw": "伯賢_EXO",
+    "name_zh_cn": "伯贤_EXO"
+  },
+  {
+    "name_ko": "성윤_n.SSign",
+    "name_en": "Sungyun_n.SSign",
+    "name_jp": "ソンユン_n.SSign",
+    "name_zh_tw": "盛允_n.SSign",
+    "name_zh_cn": "盛允_n.SSign"
+  },
+  {
+    "name_ko": "미나_TWICE",
+    "name_en": "Mina_TWICE",
+    "name_jp": "ミナ_TWICE",
+    "name_zh_tw": "Mina_TWICE",
+    "name_zh_cn": "Mina_TWICE"
+  },
+  {
+    "name_ko": "휴닝카이_투모로우바이투게더",
+    "name_en": "HueningKai_TOMORROW X TOGETHER",
+    "name_jp": "ヒュニンカイ_TOMORROW X TOGETHER",
+    "name_zh_tw": "休寧凱_TOMORROW X TOGETHER",
+    "name_zh_cn": "休寧凱_TOMORROW X TOGETHER"
+  },
+  {
+    "name_ko": "마코_NiziU",
+    "name_en": "Mako_NiziU",
+    "name_jp": "マコ_NiziU",
+    "name_zh_tw": "Mako_NiziU",
+    "name_zh_cn": "Mako_NiziU"
+  },
+  {
+    "name_ko": "방찬_Stray Kids",
+    "name_en": "Bang Chan_Stray Kids",
+    "name_jp": "バンチャン_Stray Kids",
+    "name_zh_tw": "方燦_Stray Kids",
+    "name_zh_cn": "方灿_Stray Kids"
+  },
+  {
+    "name_ko": "선우_ENHYPEN",
+    "name_en": "Sunoo_ENHYPEN",
+    "name_jp": "ソヌ_ENHYPEN",
+    "name_zh_tw": "善禹_ENHYPEN",
+    "name_zh_cn": "善禹_ENHYPEN"
+  },
+  {
+    "name_ko": "마야_NiziU",
+    "name_en": "Maya_NiziU",
+    "name_jp": "マヤ_NiziU",
+    "name_zh_tw": "Maya_NiziU",
+    "name_zh_cn": "Maya_NiziU"
+  },
+  {
+    "name_ko": "리노_Stray Kids",
+    "name_en": "Lee Know_Stray Kids",
+    "name_jp": "リノ_Stray Kids",
+    "name_zh_tw": "Lee Know_Stray Kids",
+    "name_zh_cn": "Lee Know_Stray Kids"
+  },
+  {
+    "name_ko": "윌리엄_LYKN",
+    "name_en": "William_LYKN",
+    "name_jp": "William_LYKN",
+    "name_zh_tw": "William_LYKN",
+    "name_zh_cn": "William_LYKN"
+  },
+  {
+    "name_ko": "아이엔_Stray Kids",
+    "name_en": "I.N_Stray Kids",
+    "name_jp": "I.N_Stray Kids",
+    "name_zh_tw": "I.N_Stray Kids",
+    "name_zh_cn": "I.N_Stray Kids"
+  },
+  {
+    "name_ko": "온유_샤이니",
+    "name_en": "Onew_SHINee",
+    "name_jp": "オンユ_SHINee",
+    "name_zh_tw": "溫流_SHINee",
+    "name_zh_cn": "温流_SHINee"
+  },
+  {
+    "name_ko": "수빈_투모로우바이투게더",
+    "name_en": "Soobin_TOMORROW X TOGETHER",
+    "name_jp": "スビン_TOMORROW X TOGETHER",
+    "name_zh_tw": "秀彬_TOMORROW X TOGETHER",
+    "name_zh_cn": "秀彬_TOMORROW X TOGETHER"
+  },
+  {
+    "name_ko": "도겸_세븐틴",
+    "name_en": "DK_SEVENTEEN",
+    "name_jp": "ドギョム_SEVENTEEN",
+    "name_zh_tw": "DK_SEVENTEEN",
+    "name_zh_cn": "DK_SEVENTEEN"
+  },
+  {
+    "name_ko": "정상현_알파드라이브원",
+    "name_en": "Chung Sanghyeon_ALPHA DRIVE ONE",
+    "name_jp": "チョンサンヒョン_ALPHA DRIVE ONE",
+    "name_zh_tw": "鄭相炫_ALPHA DRIVE ONE",
+    "name_zh_cn": "郑相炫_ALPHA DRIVE ONE"
+  },
+  {
+    "name_ko": "리사_BLACKPINK",
+    "name_en": "Lisa_BLACKPINK",
+    "name_jp": "リサ_BLACKPINK",
+    "name_zh_tw": "Lisa_BLACKPINK",
+    "name_zh_cn": "Lisa_BLACKPINK"
+  },
+  {
+    "name_ko": "디에잇_세븐틴",
+    "name_en": "The 8_SEVENTEEN",
+    "name_jp": "The 8_SEVENTEEN",
+    "name_zh_tw": "The 8_SEVENTEEN",
+    "name_zh_cn": "The 8_SEVENTEEN"
+  },
+  {
+    "name_ko": "찬열_EXO",
+    "name_en": "Chanyeol_EXO",
+    "name_jp": "チャンヨル_EXO",
+    "name_zh_tw": "燦烈_EXO",
+    "name_zh_cn": "灿烈_EXO"
+  },
+  {
+    "name_ko": "수호_EXO",
+    "name_en": "Suho_EXO",
+    "name_jp": "スホ_EXO",
+    "name_zh_tw": "Suho_EXO",
+    "name_zh_cn": "Suho_EXO"
+  },
+  {
+    "name_ko": "제이엘_아홉",
+    "name_en": "JL_AHOF",
+    "name_jp": "ジェイエル_AHOF",
+    "name_zh_tw": "JL_AHOF",
+    "name_zh_cn": "JL_AHOF"
+  },
+  {
+    "name_ko": "휘영_SF9",
+    "name_en": "Hwiyoung_SF9",
+    "name_jp": "フィヨン_SF9",
+    "name_zh_tw": "輝映_SF9",
+    "name_zh_cn": "辉映_SF9"
+  },
+  {
+    "name_ko": "돈_NexT1DE",
+    "name_en": "DORN_NexT1DE",
+    "name_jp": "ドーン_NexT1DE",
+    "name_zh_tw": "佑瀧_NexT1DE",
+    "name_zh_cn": "DORN_NexT1DE"
+  },
+  {
+    "name_ko": "정연_TWICE",
+    "name_en": "Jeongyeon_TWICE",
+    "name_jp": "ジョンヨン_TWICE",
+    "name_zh_tw": "定延_TWICE",
+    "name_zh_cn": "定延_TWICE"
+  },
+  {
+    "name_ko": "토모야_NEXZ",
+    "name_en": "Tomoya_NEXZ",
+    "name_jp": "トモヤ_NEXZ",
+    "name_zh_tw": "Tomoya_NEXZ",
+    "name_zh_cn": "Tomoya_NEXZ"
+  },
+  {
+    "name_ko": "태용_NCT 127",
+    "name_en": "Taeyong_NCT 127",
+    "name_jp": "テヨン_NCT 127",
+    "name_zh_tw": "泰容_NCT 127",
+    "name_zh_cn": "泰容_NCT 127"
+  },
+  {
+    "name_ko": "김지웅_제로베이스원",
+    "name_en": "Kim Jiwoong_ZEROBASEONE",
+    "name_jp": "キム・ジウン_ZEROBASEONE",
+    "name_zh_tw": "金地雄_ZEROBASEONE",
+    "name_zh_cn": "金地雄_ZEROBASEONE"
+  },
+  {
+    "name_ko": "동해_슈퍼주니어",
+    "name_en": "Donghae_Super Junior",
+    "name_jp": "ドンヘ_Super Junior",
+    "name_zh_tw": "東海_Super Junior",
+    "name_zh_cn": "东海_Super Junior"
+  },
+  {
+    "name_ko": "밤비_플레이브",
+    "name_en": "Bamby_PLAVE",
+    "name_jp": "バンビー_PLAVE",
+    "name_zh_tw": "Bamby_PLAVE",
+    "name_zh_cn": "Bamby_PLAVE"
+  },
+  {
+    "name_ko": "제노_NCT DREAM",
+    "name_en": "Jeno_NCT DREAM",
+    "name_jp": "ジェノ_NCT DREAM",
+    "name_zh_tw": "Jeno_NCT DREAM",
+    "name_zh_cn": "Jeno_NCT DREAM"
+  },
+  {
+    "name_ko": "창빈_Stray Kids",
+    "name_en": "Changbin_Stray Kids",
+    "name_jp": "チャンビン_Stray Kids",
+    "name_zh_tw": "彰彬_Stray Kids",
+    "name_zh_cn": "彰彬_Stray Kids"
+  },
+  {
+    "name_ko": "버논_세븐틴",
+    "name_en": "Vernon_SEVENTEEN",
+    "name_jp": "バーノン_SEVENTEEN",
+    "name_zh_tw": "Vernon_SEVENTEEN",
+    "name_zh_cn": "Vernon_SEVENTEEN"
+  },
+  {
+    "name_ko": "후이_펜타곤",
+    "name_en": "Hui_PENTAGON",
+    "name_jp": "フイ_PENTAGON",
+    "name_zh_tw": "Hui_PENTAGON",
+    "name_zh_cn": "Hui_PENTAGON"
+  },
+  {
+    "name_ko": "김규빈_제로베이스원",
+    "name_en": "Kim Gyuvin_ZEROBASEONE",
+    "name_jp": "キム・ギュビン_ZEROBASEONE",
+    "name_zh_tw": "金奎彬_ZEROBASEONE",
+    "name_zh_cn": "金奎彬_ZEROBASEONE"
+  },
+  {
+    "name_ko": "유우_NEXZ",
+    "name_en": "Yu_NEXZ",
+    "name_jp": "ユウ_NEXZ",
+    "name_zh_tw": "Yu_NEXZ",
+    "name_zh_cn": "Yu_NEXZ"
+  },
+  {
+    "name_ko": "파리타_BABYMONSTER",
+    "name_en": "Pharita_BABYMONSTER",
+    "name_jp": "ファリタ_BABYMONSTER",
+    "name_zh_tw": "Pharita_BABYMONSTER",
+    "name_zh_cn": "Pharita_BABYMONSTER"
+  },
+  {
+    "name_ko": "건호_CORTIS",
+    "name_en": "Keonho_CORTIS",
+    "name_jp": "ゴンホ_CORTIS",
+    "name_zh_tw": "建浩_CORTIS",
+    "name_zh_cn": "建浩_CORTIS"
+  },
+  {
+    "name_ko": "자얀_XODIAC",
+    "name_en": "Zayyan_XODIAC",
+    "name_jp": "ジャヤン_XODIAC",
+    "name_zh_tw": "Zayyan_XODIAC",
+    "name_zh_cn": "Zayyan_XODIAC"
+  },
+  {
+    "name_ko": "아야카_NiziU",
+    "name_en": "Ayaka_NiziU",
+    "name_jp": "アヤカ_NiziU",
+    "name_zh_tw": "Ayaka_NiziU",
+    "name_zh_cn": "Ayaka_NiziU"
+  },
+  {
+    "name_ko": "치원_SEVENTOEIGHT",
+    "name_en": "Chiwon_SEVENTOEIGHT",
+    "name_jp": "チウォン_SEVENTOEIGHT",
+    "name_zh_tw": "麒文_SEVENTOEIGHT",
+    "name_zh_cn": "麒文_SEVENTOEIGHT"
+  },
+  {
+    "name_ko": "윤산하_아스트로",
+    "name_en": "Sanha_ASTRO",
+    "name_jp": "ユン･サナ_ASTRO",
+    "name_zh_tw": "尹產賀_ASTRO",
+    "name_zh_cn": "尹产贺_ASTRO"
+  },
+  {
+    "name_ko": "샤나_라필루스",
+    "name_en": "Shana_Lapillus",
+    "name_jp": "シャナ_Lapillus",
+    "name_zh_tw": "紗奈_Lapillus",
+    "name_zh_cn": "纱奈_Lapillus"
+  },
+  {
+    "name_ko": "MJ_아스트로",
+    "name_en": "MJ_ASTRO",
+    "name_jp": "MJ_ASTRO",
+    "name_zh_tw": "MJ_ASTRO",
+    "name_zh_cn": "MJ_ASTRO"
+  },
+  {
+    "name_ko": "정원_ENHYPEN",
+    "name_en": "Jungwon_ENHYPEN",
+    "name_jp": "ジョンウォン_ENHYPEN",
+    "name_zh_tw": "禎元_ENHYPEN",
+    "name_zh_cn": "祯元_ENHYPEN"
+  },
+  {
+    "name_ko": "소희_라이즈",
+    "name_en": "Sohee_RIIZE",
+    "name_jp": "ソヒ_RIIZE",
+    "name_zh_tw": "Sohee_RIIZE",
+    "name_zh_cn": "Sohee_RIIZE"
+  },
+  {
+    "name_ko": "카즈타_n.SSign",
+    "name_en": "KAZUTA_n.SSign",
+    "name_jp": "カズタ_n.SSign",
+    "name_zh_tw": "KAZUTA_n.SSign",
+    "name_zh_cn": "KAZUTA_n.SSign"
+  },
+  {
+    "name_ko": "아현_BABYMONSTER",
+    "name_en": "Ahyeon_BABYMONSTER",
+    "name_jp": "アヒョン_BABYMONSTER",
+    "name_zh_tw": "雅譞_BABYMONSTER",
+    "name_zh_cn": "雅譞_BABYMONSTER"
+  },
+  {
+    "name_ko": "한결_POLARIX",
+    "name_en": "Hangyul_POLARIX",
+    "name_jp": "ハンギョル_POLARIX",
+    "name_zh_tw": "翰潔_POLARIX",
+    "name_zh_cn": "翰洁_POLARIX"
+  },
+  {
+    "name_ko": "박한_아홉",
+    "name_en": "Park Han_AHOF",
+    "name_jp": "パク・ハン_AHOF",
+    "name_zh_tw": "樸翰_AHOF",
+    "name_zh_cn": "朴翰_AHOF"
+  },
+  {
+    "name_ko": "하루_NEXZ",
+    "name_en": "Haru_NEXZ",
+    "name_jp": "ハル_NEXZ",
+    "name_zh_tw": "Haru_NEXZ",
+    "name_zh_cn": "Haru_NEXZ"
+  },
+  {
+    "name_ko": "준_세븐틴",
+    "name_en": "Jun_SEVENTEEN",
+    "name_jp": "ジュン_SEVENTEEN",
+    "name_zh_tw": "Jun_SEVENTEEN",
+    "name_zh_cn": "Jun_SEVENTEEN"
+  },
+  {
+    "name_ko": "의주_앤팀",
+    "name_en": "EJ_&TEAM",
+    "name_jp": "ウィジュ_&TEAM",
+    "name_zh_tw": "EJ_&TEAM",
+    "name_zh_cn": "EJ_&TEAM"
+  },
+  {
+    "name_ko": "아이엠_몬스타엑스",
+    "name_en": "I.M_MONSTA X",
+    "name_jp": "I.M_MONSTA X",
+    "name_zh_tw": "I.M_MONSTA X",
+    "name_zh_cn": "I.M_MONSTA X"
+  },
+  {
+    "name_ko": "세이타_NEXZ",
+    "name_en": "Seita_NEXZ",
+    "name_jp": "セイタ_NEXZ",
+    "name_zh_tw": "Seita_NEXZ",
+    "name_zh_cn": "Seita_NEXZ"
+  },
+  {
+    "name_ko": "석매튜_제로베이스원",
+    "name_en": "Seok Matthew_ZEROBASEONE",
+    "name_jp": "ソク・マシュー_ZEROBASEONE",
+    "name_zh_tw": "石馬修_ZEROBASEONE",
+    "name_zh_cn": "石马修_ZEROBASEONE"
+  },
+  {
+    "name_ko": "채영_TWICE",
+    "name_en": "Chaeyoung_TWICE",
+    "name_jp": "チェヨン_TWICE",
+    "name_zh_tw": "彩瑛_TWICE",
+    "name_zh_cn": "彩瑛_TWICE"
+  },
+  {
+    "name_ko": "타이오_NexT1DE",
+    "name_en": "THI-O_NexT1DE",
+    "name_jp": "タイオ_NexT1DE",
+    "name_zh_tw": "THI-O_NexT1DE",
+    "name_zh_cn": "THI-O_NexT1DE"
+  },
+  {
+    "name_ko": "모모_TWICE",
+    "name_en": "Momo_TWICE",
+    "name_jp": "モモ_TWICE",
+    "name_zh_tw": "Momo_TWICE",
+    "name_zh_cn": "Momo_TWICE"
+  },
+  {
+    "name_ko": "육성재_비투비",
+    "name_en": "Yook Sungjae_BTOB",
+    "name_jp": "ソンジェ_BTOB",
+    "name_zh_tw": "陸星材_BTOB",
+    "name_zh_cn": "陆星材_BTOB"
+  },
+  {
+    "name_ko": "박건욱_제로베이스원",
+    "name_en": "Park Gunwook_ZEROBASEONE",
+    "name_jp": "パク・ゴヌク_ZEROBASEONE",
+    "name_zh_tw": "朴乾旭_ZEROBASEONE",
+    "name_zh_cn": "朴干旭_ZEROBASEONE"
+  },
+  {
+    "name_ko": "지효_TWICE",
+    "name_en": "Jihyo_TWICE",
+    "name_jp": "ジヒョ_TWICE",
+    "name_zh_tw": "志效_TWICE",
+    "name_zh_cn": "志效_TWICE"
+  },
+  {
+    "name_ko": "안유진_IVE",
+    "name_en": "An Yujin_IVE",
+    "name_jp": "アン・ユジン_IVE",
+    "name_zh_tw": "安宥眞_IVE",
+    "name_zh_cn": "安宥眞_IVE"
+  },
+  {
+    "name_ko": "천준혁_TNX",
+    "name_en": "Junhyeok_TNX",
+    "name_jp": "チョン・ジュニョク_TNX",
+    "name_zh_tw": "千晙赩_TNX",
+    "name_zh_cn": "千晙赩_TNX"
+  },
+  {
+    "name_ko": "이나경_프로미스나인",
+    "name_en": "Lee Nagyung_fromis_9",
+    "name_jp": "ナギョン_fromis_9",
+    "name_zh_tw": "李娜炅_fromis_9",
+    "name_zh_cn": "李娜炅_fromis_9"
+  },
+  {
+    "name_ko": "이대휘_AB6IX",
+    "name_en": "Lee Daehwi_AB6IX",
+    "name_jp": "イ・デフィ_AB6IX",
+    "name_zh_tw": "李大輝_AB6IX",
+    "name_zh_cn": "李大辉_AB6IX"
+  },
+  {
+    "name_ko": "런쥔_NCT DREAM",
+    "name_en": "Renjun_NCT DREAM",
+    "name_jp": "ロンジュン_NCT DREAM",
+    "name_zh_tw": "仁俊_NCT DREAM",
+    "name_zh_cn": "仁俊_NCT DREAM"
+  },
+  {
+    "name_ko": "타키_앤팀",
+    "name_en": "Taki_&TEAM",
+    "name_jp": "タキ_&TEAM",
+    "name_zh_tw": "Taki_&TEAM",
+    "name_zh_cn": "Taki_&TEAM"
+  },
+  {
+    "name_ko": "카리나_에스파",
+    "name_en": "Karina_aespa",
+    "name_jp": "カリナ_aespa",
+    "name_zh_tw": "Karina_aespa",
+    "name_zh_cn": "Karina_aespa"
+  },
+  {
+    "name_ko": "해찬_NCT 127, NCT DREAM",
+    "name_en": "Haechan_NCT 127, NCT DREAM",
+    "name_jp": "ヘチャン_NCT 127, NCT DREAM",
+    "name_zh_tw": "楷燦_NCT 127, NCT DREAM",
+    "name_zh_cn": "楷灿_NCT 127, NCT DREAM"
+  },
+  {
+    "name_ko": "제이_ENHYPEN",
+    "name_en": "Jay_ENHYPEN",
+    "name_jp": "ジェイ_ENHYPEN",
+    "name_zh_tw": "Jay_ENHYPEN",
+    "name_zh_cn": "Jay_ENHYPEN"
+  },
+  {
+    "name_ko": "소건_NEXZ",
+    "name_en": "So Geon_NEXZ",
+    "name_jp": "ソゴン_NEXZ",
+    "name_zh_tw": "蘇建_NEXZ",
+    "name_zh_cn": "苏建_NEXZ"
+  },
+  {
+    "name_ko": "다현_TWICE",
+    "name_en": "Dahyun_TWICE",
+    "name_jp": "ダヒョン_TWICE",
+    "name_zh_tw": "多賢_TWICE",
+    "name_zh_cn": "多贤_TWICE"
+  },
+  {
+    "name_ko": "타카미 아야네_ME:I",
+    "name_en": "Takami Ayane_ME:I",
+    "name_jp": "高見文寧_ME:I",
+    "name_zh_tw": "高見文寧_ME:I",
+    "name_zh_cn": "高见文宁_ME:I"
+  },
+  {
+    "name_ko": "명재현_BOYNEXTDOOR",
+    "name_en": "Myeong Jaehyun_BOYNEXTDOOR",
+    "name_jp": "ミョン・ジェヒョン_BOYNEXTDOOR",
+    "name_zh_tw": "明宰鉉_BOYNEXTDOOR",
+    "name_zh_cn": "明宰铉_BOYNEXTDOOR"
+  },
+  {
+    "name_ko": "강민_VERIVERY",
+    "name_en": "Kangmin_VERIVERY",
+    "name_jp": "カンミン_VERIVERY",
+    "name_zh_tw": "岡旻_VERIVERY",
+    "name_zh_cn": "岡旻_VERIVERY"
+  },
+  {
+    "name_ko": "니콜라스_앤팀",
+    "name_en": "Nicholas_&TEAM",
+    "name_jp": "ニコラス_&TEAM",
+    "name_zh_tw": "Nicholas_&TEAM",
+    "name_zh_cn": "Nicholas_&TEAM"
+  },
+  {
+    "name_ko": "산_에이티즈",
+    "name_en": "San_ATEEZ",
+    "name_jp": "チェ・サン_ATEEZ",
+    "name_zh_tw": "崔傘_ATEEZ",
+    "name_zh_cn": "崔傘_ATEEZ"
+  },
+  {
+    "name_ko": "종호_에이티즈",
+    "name_en": "Jongho_ATEEZ",
+    "name_jp": "チェ・ジョンホ_ATEEZ",
+    "name_zh_tw": "鍾浩_ATEEZ",
+    "name_zh_cn": "鍾浩_ATEEZ"
+  },
+  {
+    "name_ko": "영재_GOT7",
+    "name_en": "Youngjae_GOT7",
+    "name_jp": "ヨンジェ_GOT7",
+    "name_zh_tw": "榮宰_GOT7",
+    "name_zh_cn": "荣宰_GOT7"
+  },
+  {
+    "name_ko": "리키_제로베이스원",
+    "name_en": "Ricky_ZEROBASEONE",
+    "name_jp": "リッキー_ZEROBASEONE",
+    "name_zh_tw": "Ricky_ZEROBASEONE",
+    "name_zh_cn": "Ricky_ZEROBASEONE"
+  },
+  {
+    "name_ko": "마키_앤팀",
+    "name_en": "Maki_&TEAM",
+    "name_jp": "マキ_&TEAM",
+    "name_zh_tw": "Maki_&TEAM",
+    "name_zh_cn": "Maki_&TEAM"
+  },
+  {
+    "name_ko": "나연_TWICE",
+    "name_en": "Nayeon_TWICE",
+    "name_jp": "ナヨン_TWICE",
+    "name_zh_tw": "娜璉_TWICE",
+    "name_zh_cn": "娜琏_TWICE"
+  },
+  {
+    "name_ko": "태민_샤이니",
+    "name_en": "Taemin_SHINee",
+    "name_jp": "テミン_SHINee",
+    "name_zh_tw": "泰民_SHINee",
+    "name_zh_cn": "泰民_SHINee"
+  },
+  {
+    "name_ko": "리우_BOYNEXTDOOR",
+    "name_en": "Riwoo_BOYNEXTDOOR",
+    "name_jp": "リウ_BOYNEXTDOOR",
+    "name_zh_tw": "Riwoo_BOYNEXTDOOR",
+    "name_zh_cn": "Riwoo_BOYNEXTDOOR"
+  },
+  {
+    "name_ko": "시우민_EXO",
+    "name_en": "Xiumin_EXO",
+    "name_jp": "シウミン_EXO",
+    "name_zh_tw": "Xiumin_EXO",
+    "name_zh_cn": "Xiumin_EXO"
+  },
+  {
+    "name_ko": "주헌_몬스타엑스",
+    "name_en": "Joohoney_MONSTA X",
+    "name_jp": "ジュホン_MONSTA X",
+    "name_zh_tw": "周憲_MONSTA X",
+    "name_zh_cn": "周宪_MONSTA X"
+  },
+  {
+    "name_ko": "오히라 쇼세이_JO1",
+    "name_en": "Ohira Shosei_JO1",
+    "name_jp": "大平祥生_JO1",
+    "name_zh_tw": "大平祥生_JO1",
+    "name_zh_cn": "大平祥生_JO1"
+  },
+  {
+    "name_ko": "레이_EXO",
+    "name_en": "Lay_EXO",
+    "name_jp": "レイ_EXO",
+    "name_zh_tw": "Lay_EXO",
+    "name_zh_cn": "Lay_EXO"
+  },
+  {
+    "name_ko": "박우진_AB6IX",
+    "name_en": "Park Woojin_AB6IX",
+    "name_jp": "パク・ウジン_AB6IX",
+    "name_zh_tw": "朴佑鎮_AB6IX",
+    "name_zh_cn": "朴佑镇_AB6IX"
+  },
+  {
+    "name_ko": "지우_NMIXX",
+    "name_en": "Jiwoo_NMIXX",
+    "name_jp": "ジウ_NMIXX",
+    "name_zh_tw": "智羽_NMIXX",
+    "name_zh_cn": "智羽_NMIXX"
+  },
+  {
+    "name_ko": "준호_2PM",
+    "name_en": "Junho_2PM",
+    "name_jp": "ジュノ_2PM",
+    "name_zh_tw": "俊昊_2PM",
+    "name_zh_cn": "俊昊_2PM"
+  },
+  {
+    "name_ko": "유나_ITZY",
+    "name_en": "Yuna_ITZY",
+    "name_jp": "ユナ_ITZY",
+    "name_zh_tw": "有娜_ITZY",
+    "name_zh_cn": "有娜_ITZY"
+  },
+  {
+    "name_ko": "원우_세븐틴",
+    "name_en": "Wonwoo_SEVENTEEN",
+    "name_jp": "ウォヌ_SEVENTEEN",
+    "name_zh_tw": "圓佑_SEVENTEEN",
+    "name_zh_cn": "圆佑_SEVENTEEN"
+  },
+  {
+    "name_ko": "마틴_CORTIS",
+    "name_en": "Martin_CORTIS",
+    "name_jp": "マーティン_CORTIS",
+    "name_zh_tw": "Martin_CORTIS",
+    "name_zh_cn": "Martin_CORTIS"
+  },
+  {
+    "name_ko": "키무라 마사야_INI",
+    "name_en": "Kimura Masaya_INI",
+    "name_jp": "木村柾哉_INI",
+    "name_zh_tw": "木村柾哉_INI",
+    "name_zh_cn": "木村柾哉_INI"
+  },
+  {
+    "name_ko": "여상_에이티즈",
+    "name_en": "Yeosang_ATEEZ",
+    "name_jp": "カン・ヨサン_ATEEZ",
+    "name_zh_tw": "呂尚_ATEEZ",
+    "name_zh_cn": "呂尚_ATEEZ"
+  },
+  {
+    "name_ko": "김채현_Kep1er",
+    "name_en": "Kim Chaehyun_Kep1er",
+    "name_jp": "キム・チェヒョン_Kep1er",
+    "name_zh_tw": "金采炫_Kep1er",
+    "name_zh_cn": "金采炫_Kep1er"
+  },
+  {
+    "name_ko": "사나_TWICE",
+    "name_en": "Sana_TWICE",
+    "name_jp": "サナ_TWICE",
+    "name_zh_tw": "Sana_TWICE",
+    "name_zh_cn": "Sana_TWICE"
+  },
+  {
+    "name_ko": "희진_ARTMS",
+    "name_en": "HeeJin_ARTMS",
+    "name_jp": "ヒジン_ARTMS",
+    "name_zh_tw": "姬振_ARTMS",
+    "name_zh_cn": "姬振_ARTMS"
+  },
+  {
+    "name_ko": "마시로_메이딘",
+    "name_en": "Mashiro_MADEIN",
+    "name_jp": "マシロ_MADEIN",
+    "name_zh_tw": "坂本舞白_MADEIN",
+    "name_zh_cn": "坂本舞白_MADEIN"
+  },
+  {
+    "name_ko": "한빈_TEMPEST",
+    "name_en": "Hanbin_TEMPEST",
+    "name_jp": "ハンビン_TEMPEST",
+    "name_zh_tw": "韓彬_TEMPEST",
+    "name_zh_cn": "韩彬_TEMPEST"
+  },
+  {
+    "name_ko": "이시이 란_ME:I",
+    "name_en": "Ishii Ran_ME:I",
+    "name_jp": "石井蘭_ME:I",
+    "name_zh_tw": "石井蘭_ME:I",
+    "name_zh_cn": "石井兰_ME:I"
+  },
+  {
+    "name_ko": "이한_BOYNEXTDOOR",
+    "name_en": "Leehan_BOYNEXTDOOR",
+    "name_jp": "イハン_BOYNEXTDOOR",
+    "name_zh_tw": "Leehan_BOYNEXTDOOR",
+    "name_zh_cn": "Leehan_BOYNEXTDOOR"
+  },
+  {
+    "name_ko": "김요한_위아이",
+    "name_en": "Kim Yohan_WEi",
+    "name_jp": "キム・ヨハン_WEi",
+    "name_zh_tw": "金曜漢_WEi",
+    "name_zh_cn": "金曜汉_WEi"
+  },
+  {
+    "name_ko": "민호_샤이니",
+    "name_en": "Minho_SHINee",
+    "name_jp": "ミンホ_SHINee",
+    "name_zh_tw": "珉豪_SHINee",
+    "name_zh_cn": "珉豪_SHINee"
+  },
+  {
+    "name_ko": "숑_NexT1DE",
+    "name_en": "Xiong_NexT1DE",
+    "name_jp": "シオン_NexT1DE",
+    "name_zh_tw": "林錦雄_NexT1DE",
+    "name_zh_cn": "林锦雄_NexT1DE"
+  },
+  {
+    "name_ko": "히카루_Kep1er",
+    "name_en": "Hikaru_Kep1er",
+    "name_jp": "ヒカル_Kep1er",
+    "name_zh_tw": "江崎光_Kep1er",
+    "name_zh_cn": "江崎光_Kep1er"
+  },
+  {
+    "name_ko": "휴이_NEXZ",
+    "name_en": "Hyui_NEXZ",
+    "name_jp": "ヒュイ_NEXZ",
+    "name_zh_tw": "Hyui_NEXZ",
+    "name_zh_cn": "Hyui_NEXZ"
+  },
+  {
+    "name_ko": "제니_BLACKPINK",
+    "name_en": "Jennie_BLACKPINK",
+    "name_jp": "ジェニー_BLACKPINK",
+    "name_zh_tw": "Jennie_BLACKPINK",
+    "name_zh_cn": "Jennie_BLACKPINK"
+  },
+  {
+    "name_ko": "우지_세븐틴",
+    "name_en": "Woozi_SEVENTEEN",
+    "name_jp": "ウジ_SEVENTEEN",
+    "name_zh_tw": "Woozi_SEVENTEEN",
+    "name_zh_cn": "Woozi_SEVENTEEN"
+  },
+  {
+    "name_ko": "민기_에이티즈",
+    "name_en": "Mingi_ATEEZ",
+    "name_jp": "ソン・ミンギ_ATEEZ",
+    "name_zh_tw": "旼琦_ATEEZ",
+    "name_zh_cn": "旼琦_ATEEZ"
+  },
+  {
+    "name_ko": "유우시_NCT WISH",
+    "name_en": "Yushi_NCT WISH",
+    "name_jp": "ユウシ_NCT WISH",
+    "name_zh_tw": "Yushi_NCT WISH",
+    "name_zh_cn": "Yushi_NCT WISH"
+  },
+  {
+    "name_ko": "송하영_프로미스나인",
+    "name_en": "Song Hayoung_fromis_9",
+    "name_jp": "ハヨン_fromis_9",
+    "name_zh_tw": "宋河英_fromis_9",
+    "name_zh_cn": "宋河英_fromis_9"
+  },
+  {
+    "name_ko": "사쿠라이 미우_ME:I",
+    "name_en": "Sakurai Miu_ME:I",
+    "name_jp": "櫻井美羽_ME:I",
+    "name_zh_tw": "櫻井美羽_ME:I",
+    "name_zh_cn": "樱井美羽_ME:I"
+  },
+  {
+    "name_ko": "첸_EXO",
+    "name_en": "Chen_EXO",
+    "name_jp": "チェン_EXO",
+    "name_zh_tw": "Chen_EXO",
+    "name_zh_cn": "Chen_EXO"
+  },
+  {
+    "name_ko": "도훈_TWS",
+    "name_en": "Dohoon_TWS",
+    "name_jp": "ドフン_TWS",
+    "name_zh_tw": "道勳_TWS",
+    "name_zh_cn": "道勋_TWS"
+  },
+  {
+    "name_ko": "앤톤_라이즈",
+    "name_en": "Anton_RIIZE",
+    "name_jp": "アントン_RIIZE",
+    "name_zh_tw": "Anton_RIIZE",
+    "name_zh_cn": "Anton_RIIZE"
+  },
+  {
+    "name_ko": "기현_몬스타엑스",
+    "name_en": "Kihyun_MONSTA X",
+    "name_jp": "キヒョン_MONSTA X",
+    "name_zh_tw": "基賢_MONSTA X",
+    "name_zh_cn": "基贤_MONSTA X"
+  },
+  {
+    "name_ko": "에스쿱스_세븐틴",
+    "name_en": "S.Coups_SEVENTEEN",
+    "name_jp": "エスクプス_SEVENTEEN",
+    "name_zh_tw": "S.Coups_SEVENTEEN",
+    "name_zh_cn": "S.Coups_SEVENTEEN"
+  },
+  {
+    "name_ko": "낸시_모모랜드",
+    "name_en": "Nancy_MOMOLAND",
+    "name_jp": "ナンシー_MOMOLAND",
+    "name_zh_tw": "Nancy_MOMOLAND",
+    "name_zh_cn": "Nancy_MOMOLAND"
+  },
+  {
+    "name_ko": "도영_TREASURE",
+    "name_en": "Doyoung_TREASURE",
+    "name_jp": "ドヨン_TREASURE",
+    "name_zh_tw": "道榮_TREASURE",
+    "name_zh_cn": "道荣_TREASURE"
+  },
+  {
+    "name_ko": "태연_소녀시대",
+    "name_en": "Taeyeon_Girls' Generation",
+    "name_jp": "テヨン_少女時代",
+    "name_zh_tw": "太妍_少女時代",
+    "name_zh_cn": "太妍_少女时代"
+  },
+  {
+    "name_ko": "방지민_izna",
+    "name_en": "Bang Jeemin_izna",
+    "name_jp": "バン・ジミン_izna",
+    "name_zh_tw": "Bang Jeemin_izna",
+    "name_zh_cn": "Bang Jeemin_izna"
+  },
+  {
+    "name_ko": "조슈아_세븐틴",
+    "name_en": "Joshua_SEVENTEEN",
+    "name_jp": "ジョシュア_SEVENTEEN",
+    "name_zh_tw": "Joshua_SEVENTEEN",
+    "name_zh_cn": "Joshua_SEVENTEEN"
+  },
+  {
+    "name_ko": "성화_에이티즈",
+    "name_en": "Seonghwa_ATEEZ",
+    "name_jp": "パク・ソンファ_ATEEZ",
+    "name_zh_tw": "星和_ATEEZ",
+    "name_zh_cn": "星和_ATEEZ"
+  },
+  {
+    "name_ko": "유키_NEXZ",
+    "name_en": "Yuki_NEXZ",
+    "name_jp": "ユウキ_NEXZ",
+    "name_zh_tw": "Yuki_NEXZ",
+    "name_zh_cn": "Yuki_NEXZ"
+  },
+  {
+    "name_ko": "쇼타로_라이즈",
+    "name_en": "SHOTARO_RIIZE",
+    "name_jp": "ショウタロウ_RIIZE",
+    "name_zh_tw": "將太郎_RIIZE",
+    "name_zh_cn": "将太郎_RIIZE"
+  },
+  {
+    "name_ko": "JAY B_GOT7",
+    "name_en": "JAY B_GOT7",
+    "name_jp": "JAY B_GOT7",
+    "name_zh_tw": "JAY B_GOT7",
+    "name_zh_cn": "JAY B_GOT7"
+  },
+  {
+    "name_ko": "미이히_NiziU",
+    "name_en": "Miihi_NiziU",
+    "name_jp": "ミイヒ_NiziU",
+    "name_zh_tw": "Miihi_NiziU",
+    "name_zh_cn": "Miihi_NiziU"
+  },
+  {
+    "name_ko": "은석_라이즈",
+    "name_en": "Eunseok_RIIZE",
+    "name_jp": "ウンソク_RIIZE",
+    "name_zh_tw": "Eunseok_RIIZE",
+    "name_zh_cn": "Eunseok_RIIZE"
+  },
+  {
+    "name_ko": "시원_슈퍼주니어",
+    "name_en": "Siwon_Super Junior",
+    "name_jp": "シウォン_Super Junior",
+    "name_zh_tw": "始源_Super Junior",
+    "name_zh_cn": "始源_Super Junior"
+  },
+  {
+    "name_ko": "호시_세븐틴",
+    "name_en": "Hoshi_SEVENTEEN",
+    "name_jp": "ホシ_SEVENTEEN",
+    "name_zh_tw": "Hoshi_SEVENTEEN",
+    "name_zh_cn": "Hoshi_SEVENTEEN"
+  },
+  {
+    "name_ko": "마크_NCT 127, NCT DREAM",
+    "name_en": "Mark_NCT 127, NCT DREAM",
+    "name_jp": "マーク_NCT 127, NCT DREAM",
+    "name_zh_tw": "Mark_NCT 127, NCT DREAM",
+    "name_zh_cn": "Mark_NCT 127, NCT DREAM"
+  },
+  {
+    "name_ko": "다이스케_아홉",
+    "name_en": "Daisuke_AHOF",
+    "name_jp": "ダイスケ_AHOF",
+    "name_zh_tw": "Daisuke_AHOF",
+    "name_zh_cn": "Daisuke_AHOF"
+  },
+  {
+    "name_ko": "은휘_TNX",
+    "name_en": "Hwi_TNX",
+    "name_jp": "ウンフィ_TNX",
+    "name_zh_tw": "殷輝_TNX",
+    "name_zh_cn": "殷辉_TNX"
+  },
+  {
+    "name_ko": "운학_BOYNEXTDOOR",
+    "name_en": "Woonhak_BOYNEXTDOOR",
+    "name_jp": "ウンハク_BOYNEXTDOOR",
+    "name_zh_tw": "雲鶴_BOYNEXTDOOR",
+    "name_zh_cn": "云鹤_BOYNEXTDOOR"
+  },
+  {
+    "name_ko": "은혁_슈퍼주니어",
+    "name_en": "Eunhyuk_Super Junior",
+    "name_jp": "ウニョク_Super Junior",
+    "name_zh_tw": "銀赫_Super Junior",
+    "name_zh_cn": "银赫_Super Junior"
+  },
+  {
+    "name_ko": "윤호_에이티즈",
+    "name_en": "Yunho_ATEEZ",
+    "name_jp": "ジョン・ユンホ_ATEEZ",
+    "name_zh_tw": "潤浩_ATEEZ",
+    "name_zh_cn": "潤浩_ATEEZ"
+  },
+  {
+    "name_ko": "소정환_TREASURE",
+    "name_en": "So Junghwan_TREASURE",
+    "name_jp": "ソ・ジョンファン_TREASURE",
+    "name_zh_tw": "蘇庭煥_TREASURE",
+    "name_zh_cn": "苏庭焕_TREASURE"
+  },
+  {
+    "name_ko": "리오_NiziU",
+    "name_en": "Rio_NiziU",
+    "name_jp": "リオ_NiziU",
+    "name_zh_tw": "Rio_NiziU",
+    "name_zh_cn": "Rio_NiziU"
+  },
+  {
+    "name_ko": "신유_TWS",
+    "name_en": "Shinyu_TWS",
+    "name_jp": "シニュ_TWS",
+    "name_zh_tw": "申惟_TWS",
+    "name_zh_cn": "申惟_TWS"
+  },
+  {
+    "name_ko": "예지_ITZY",
+    "name_en": "Yeji_ITZY",
+    "name_jp": "イェジ_ITZY",
+    "name_zh_tw": "禮志_ITZY",
+    "name_zh_cn": "禮志_ITZY"
+  },
+  {
+    "name_ko": "효진_온앤오프",
+    "name_en": "Hyojin_ONF",
+    "name_jp": "ヒョジン_ONF",
+    "name_zh_tw": "曉珍_ONF",
+    "name_zh_cn": "晓珍_ONF"
+  },
+  {
+    "name_ko": "서영은_Kep1er",
+    "name_en": "Seo Youngeun_Kep1er",
+    "name_jp": "ソ・ヨンウン_Kep1er",
+    "name_zh_tw": "徐永恩_Kep1er",
+    "name_zh_cn": "徐永恩_Kep1er"
+  },
+  {
+    "name_ko": "형원_몬스타엑스",
+    "name_en": "Hyungwon_MONSTA X",
+    "name_jp": "ヒョンウォン_MONSTA X",
+    "name_zh_tw": "亨元_MONSTA X",
+    "name_zh_cn": "亨元_MONSTA X"
+  },
+  {
+    "name_ko": "최유진_Kep1er",
+    "name_en": "Choi Yujin_Kep1er",
+    "name_jp": "ユジン_Kep1er",
+    "name_zh_tw": "崔有真_Kep1er",
+    "name_zh_cn": "崔有真_Kep1er"
+  },
+  {
+    "name_ko": "우영_에이티즈",
+    "name_en": "Wooyoung_ATEEZ",
+    "name_jp": "ジョン・ウヨン_ATEEZ",
+    "name_zh_tw": "友榮_ATEEZ",
+    "name_zh_cn": "友榮_ATEEZ"
+  },
+  {
+    "name_ko": "성현_CORTIS",
+    "name_en": "Seonghyeon_CORTIS",
+    "name_jp": "ソンヒョン_CORTIS",
+    "name_zh_tw": "成賢_CORTIS",
+    "name_zh_cn": "成贤_CORTIS"
+  },
+  {
+    "name_ko": "대성_빅뱅",
+    "name_en": "Daesung_BIGBANG",
+    "name_jp": "D-LITE_BIGBANG",
+    "name_zh_tw": "大聲_BIGBANG",
+    "name_zh_cn": "大声_BIGBANG"
+  },
+  {
+    "name_ko": "원빈_라이즈",
+    "name_en": "Wonbin_RIIZE",
+    "name_jp": "ウォンビン_RIIZE",
+    "name_zh_tw": "Wonbin_RIIZE",
+    "name_zh_cn": "Wonbin_RIIZE"
+  },
+  {
+    "name_ko": "하민_플레이브",
+    "name_en": "Hamin_PLAVE",
+    "name_jp": "ハミン_PLAVE",
+    "name_zh_tw": "河玟_PLAVE",
+    "name_zh_cn": "河玟_PLAVE"
+  }
+]
