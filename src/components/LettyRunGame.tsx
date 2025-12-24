@@ -321,7 +321,6 @@ const LettyRunGame = () => {
       }
       if (circleRectIntersect(hrt.x, hrt.y, hs, playerRect)) {
         state.score += hv;
-        console.log('[Heart collected] +', hv, 'Total score:', state.score);
         emitDust(hrt.x, hrt.y, 10, 1);
         heartsRef.current.splice(i, 1);
       }
@@ -338,11 +337,6 @@ const LettyRunGame = () => {
         ry: o.h * 0.33,
       };
       if (ellipseRectIntersect(ell, hitPlayer)) {
-        try {
-          alert(`[Collision] Game over! score: ${state.score}`);
-        } catch (e) {
-          // ignore
-        }
         state.running = false;
         state.gameOver = true;
         updateUI();
@@ -497,68 +491,34 @@ const LettyRunGame = () => {
     }
     gameOverHandledRef.current = true;
 
-    try {
-      alert(`[handleGameOver] finalScore: ${finalScore}`);
-    } catch (e) {
-      // ignore
-    }
-
     // Track game end
-    try {
-      trackGameEnd(finalScore);
-    } catch (e) {
-      // ignore
-    }
+    trackGameEnd(finalScore);
 
     // Always notify native app if score > 0
     if (finalScore > 0) {
-      try {
-        alert(`[handleGameOver] Calling notifyGameEnd with score: ${finalScore}`);
-      } catch (e) {
-        // ignore
-      }
-
-      try {
-        notifyGameEnd(finalScore);
-      } catch (e) {
-        try {
-          alert(`[handleGameOver] notifyGameEnd ERROR: ${e}`);
-        } catch (e2) {
-          // ignore
-        }
-      }
+      notifyGameEnd(finalScore);
 
       // Only submit to leaderboard if not already submitted
       if (!scoreSubmittedRef.current) {
-        console.log('[handleGameOver] Checking if qualifies for top 10...');
-        try {
-          const qualifies = await checkQualifiesForTop10(finalScore);
-          console.log('[handleGameOver] qualifies:', qualifies);
-          if (qualifies) {
-            scoreSubmittedRef.current = true;
-            const playerName = getNicknameFromUrlOrStorage();
-            console.log('[handleGameOver] Submitting score for:', playerName);
-            const result = await submitScore(finalScore);
-            console.log('[handleGameOver] submitScore result:', result);
-            if (result.success) {
-              trackScoreSubmit(finalScore, playerName);
-              setTimeout(() => {
-                window.location.href = "/scoreboard";
-              }, 1500);
-            } else if (result.shouldShowError) {
-              toast({
-                title: "Submission Failed",
-                description: "Please try again later",
-                variant: "destructive",
-              });
-            }
+        const qualifies = await checkQualifiesForTop10(finalScore);
+        if (qualifies) {
+          scoreSubmittedRef.current = true;
+          const playerName = getNicknameFromUrlOrStorage();
+          const result = await submitScore(finalScore);
+          if (result.success) {
+            trackScoreSubmit(finalScore, playerName);
+            setTimeout(() => {
+              window.location.href = "/scoreboard";
+            }, 1500);
+          } else if (result.shouldShowError) {
+            toast({
+              title: "Submission Failed",
+              description: "Please try again later",
+              variant: "destructive",
+            });
           }
-        } catch (e) {
-          console.error('[handleGameOver] Leaderboard submission error:', e);
         }
       }
-    } else {
-      console.log('[handleGameOver] Score is 0 or less, not notifying native app');
     }
   }, [checkQualifiesForTop10, submitScore, toast]);
 
@@ -615,11 +575,15 @@ const LettyRunGame = () => {
     state.startButtonEnabled = false;
     updateUI();
 
-    if (window.location.hostname === "localhost" || !REQUIRE_NATIVE_APP) {
-      startGameDirectly();
-    } else if (nativeAppInfo.isNative) {
+    // Native app check first - this ensures payment flow works in native app
+    if (nativeAppInfo.isNative) {
+      // Native 앱에서는 승인 요청 (게임비 지불)
       requestGameStart();
+    } else if (window.location.hostname === "localhost" || !REQUIRE_NATIVE_APP) {
+      // localhost에서는 바로 시작
+      startGameDirectly();
     } else {
+      // Native 앱이 아니면 메시지 표시
       state.showNativeMessage = true;
       state.isProcessingStart = false;
       updateUI();
