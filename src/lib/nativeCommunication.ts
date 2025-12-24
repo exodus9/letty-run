@@ -19,37 +19,52 @@ export interface NativeAppInfo {
 export const detectNativeApp = (): NativeAppInfo => {
   const userAgent = navigator.userAgent.toLowerCase();
   const hostname = window.location.hostname;
-  
+
   // Check for localhost
   const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1' || hostname.startsWith('192.168.') || hostname.startsWith('10.') || hostname.startsWith('172.');
-  
+
   // Check for Android WebView
   const isAndroidWebView = userAgent.includes('wv') && userAgent.includes('android');
-  
+
   // Check for iOS WebView (WKWebView or UIWebView)
   const isIOSWebView = userAgent.includes('iphone') || userAgent.includes('ipad');
-  
+
   if (isAndroidWebView) {
     return {
       isNative: true,
       platform: 'android'
     };
   }
-  
+
   if (isIOSWebView) {
     return {
       isNative: true,
       platform: 'ios'
     };
   }
-  
+
   if (isLocalhost) {
     return {
       isNative: true,
       platform: 'web'
     };
   }
-  
+
+  // Check if native interface is available even if not detected by user agent
+  if (window.Android?.receiveMessage) {
+    return {
+      isNative: true,
+      platform: 'android'
+    };
+  }
+
+  if (window.webkit?.messageHandlers?.nativeApp) {
+    return {
+      isNative: true,
+      platform: 'ios'
+    };
+  }
+
   return {
     isNative: false,
     platform: 'web'
@@ -61,11 +76,21 @@ export const detectNativeApp = (): NativeAppInfo => {
  */
 export const sendToNative = (message: NativeMessage): void => {
   const nativeApp = detectNativeApp();
-  console.log('[sendToNative] Platform:', nativeApp.platform, 'isNative:', nativeApp.isNative);
-  console.log('[sendToNative] Message:', JSON.stringify(message));
+  const userAgent = navigator.userAgent;
+  const hostname = window.location.hostname;
+
+  try {
+    alert(`[sendToNative] platform: ${nativeApp.platform}, isNative: ${nativeApp.isNative}\nhostname: ${hostname}\nhasAndroid: ${!!window.Android}\nhasWebkit: ${!!window.webkit?.messageHandlers?.nativeApp}`);
+  } catch (e) {
+    // ignore
+  }
 
   if (!nativeApp.isNative) {
-    console.warn('Not running in native app, cannot send message:', message);
+    try {
+      alert(`[sendToNative] NOT native! userAgent: ${userAgent.substring(0, 100)}`);
+    } catch (e) {
+      // ignore
+    }
     return;
   }
 
@@ -74,24 +99,26 @@ export const sendToNative = (message: NativeMessage): void => {
     if (nativeApp.platform === 'android') {
       if (window.Android && window.Android.receiveMessage) {
         const jsonMessage = JSON.stringify(message);
-        console.log('[sendToNative] Sending to Android:', jsonMessage);
+        alert(`[sendToNative] Sending to Android: ${jsonMessage}`);
         window.Android.receiveMessage(jsonMessage);
+        alert('[sendToNative] Android message sent!');
       } else {
-        console.warn('Android interface not available');
+        alert('[sendToNative] Android interface not available!');
       }
     }
 
     // For iOS WebView
     if (nativeApp.platform === 'ios') {
       if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.nativeApp) {
-        console.log('[sendToNative] Sending to iOS:', JSON.stringify(message));
+        alert(`[sendToNative] Sending to iOS: ${JSON.stringify(message)}`);
         window.webkit.messageHandlers.nativeApp.postMessage(message);
+        alert('[sendToNative] iOS message sent!');
       } else {
-        console.warn('iOS WebKit interface not available');
+        alert('[sendToNative] iOS interface not available!');
       }
     }
   } catch (error) {
-    console.error('Error sending message to native app:', error);
+    alert(`[sendToNative] ERROR: ${error}`);
   }
 };
 
@@ -131,18 +158,38 @@ export const requestGameStart = (): void => {
 };
 
 /**
+ * Get log_heart_id from URL parameter
+ */
+const getLogHeartIdFromUrl = (): string | null => {
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get("log_heart_id");
+  } catch (e) {
+    return null;
+  }
+};
+
+/**
  * Notify native app that game has ended
  */
 export const notifyGameEnd = (score: number): void => {
-  console.log('[notifyGameEnd] Sending score to native app:', score);
+  const logHeartId = getLogHeartIdFromUrl();
+
   const message = {
     type: 'GAME_END' as const,
     data: {
       score,
+      log_heart_id: logHeartId,
       timestamp: Date.now()
     }
   };
-  console.log('[notifyGameEnd] Full message:', JSON.stringify(message));
+
+  try {
+    alert(`[GAME_END] score: ${score}, log_heart_id: ${logHeartId}, message: ${JSON.stringify(message)}`);
+  } catch (e) {
+    // ignore
+  }
+
   sendToNative(message);
 };
 
