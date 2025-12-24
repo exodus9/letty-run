@@ -61,25 +61,30 @@ export const detectNativeApp = (): NativeAppInfo => {
  */
 export const sendToNative = (message: NativeMessage): void => {
   const nativeApp = detectNativeApp();
-  
+  console.log('[sendToNative] Platform:', nativeApp.platform, 'isNative:', nativeApp.isNative);
+  console.log('[sendToNative] Message:', JSON.stringify(message));
+
   if (!nativeApp.isNative) {
     console.warn('Not running in native app, cannot send message:', message);
     return;
   }
-  
+
   try {
     // For Android WebView
     if (nativeApp.platform === 'android') {
       if (window.Android && window.Android.receiveMessage) {
-        window.Android.receiveMessage(JSON.stringify(message));
+        const jsonMessage = JSON.stringify(message);
+        console.log('[sendToNative] Sending to Android:', jsonMessage);
+        window.Android.receiveMessage(jsonMessage);
       } else {
         console.warn('Android interface not available');
       }
     }
-    
+
     // For iOS WebView
     if (nativeApp.platform === 'ios') {
       if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.nativeApp) {
+        console.log('[sendToNative] Sending to iOS:', JSON.stringify(message));
         window.webkit.messageHandlers.nativeApp.postMessage(message);
       } else {
         console.warn('iOS WebKit interface not available');
@@ -129,13 +134,16 @@ export const requestGameStart = (): void => {
  * Notify native app that game has ended
  */
 export const notifyGameEnd = (score: number): void => {
-  sendToNative({
-    type: 'GAME_END',
+  console.log('[notifyGameEnd] Sending score to native app:', score);
+  const message = {
+    type: 'GAME_END' as const,
     data: {
       score,
       timestamp: Date.now()
     }
-  });
+  };
+  console.log('[notifyGameEnd] Full message:', JSON.stringify(message));
+  sendToNative(message);
 };
 
 // Extend Window interface for TypeScript

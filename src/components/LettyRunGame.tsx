@@ -320,6 +320,7 @@ const LettyRunGame = () => {
       }
       if (circleRectIntersect(hrt.x, hrt.y, hs, playerRect)) {
         state.score += hv;
+        console.log('[Heart collected] +', hv, 'Total score:', state.score);
         emitDust(hrt.x, hrt.y, 10, 1);
         heartsRef.current.splice(i, 1);
       }
@@ -336,6 +337,7 @@ const LettyRunGame = () => {
         ry: o.h * 0.33,
       };
       if (ellipseRectIntersect(ell, hitPlayer)) {
+        console.log('[Collision] Game over! Current state.score:', state.score);
         state.running = false;
         state.gameOver = true;
         updateUI();
@@ -484,11 +486,14 @@ const LettyRunGame = () => {
 
   // Handle game over
   const handleGameOver = useCallback(async (finalScore: number) => {
+    console.log('[handleGameOver] Called with finalScore:', finalScore);
+
     // Track game end
     trackGameEnd(finalScore);
 
     // Only notify native app and submit score if score > 0
     if (finalScore > 0) {
+      console.log('[handleGameOver] Score > 0, calling notifyGameEnd with:', finalScore);
       // Notify native app about game end (always notify, regardless of scoreSubmitted)
       notifyGameEnd(finalScore);
 
