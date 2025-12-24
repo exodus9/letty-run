@@ -484,26 +484,44 @@ const LettyRunGame = () => {
 
   // Handle game over
   const handleGameOver = useCallback(async (finalScore: number) => {
-    trackGameEnd(finalScore);
+    try {
+      trackGameEnd(finalScore);
+    } catch (e) {
+      console.error('Error tracking game end:', e);
+    }
+
+    // 점수가 0 이상이면 항상 앱에 하트 지급 알림
+    if (finalScore >= 0) {
+      try {
+        notifyGameEnd(finalScore);
+      } catch (e) {
+        console.error('Error notifying game end to native app:', e);
+      }
+    }
+
+    // 리더보드 점수 제출 (별도 처리)
     if (finalScore > 0 && !scoreSubmittedRef.current) {
-      notifyGameEnd(finalScore);
-      const qualifies = await checkQualifiesForTop10(finalScore);
-      if (qualifies) {
-        scoreSubmittedRef.current = true;
-        const playerName = getNicknameFromUrlOrStorage();
-        const result = await submitScore(finalScore);
-        if (result.success) {
-          trackScoreSubmit(finalScore, playerName);
-          setTimeout(() => {
-            window.location.href = "/scoreboard";
-          }, 1500);
-        } else if (result.shouldShowError) {
-          toast({
-            title: "Submission Failed",
-            description: "Please try again later",
-            variant: "destructive",
-          });
+      try {
+        const qualifies = await checkQualifiesForTop10(finalScore);
+        if (qualifies) {
+          scoreSubmittedRef.current = true;
+          const playerName = getNicknameFromUrlOrStorage();
+          const result = await submitScore(finalScore);
+          if (result.success) {
+            trackScoreSubmit(finalScore, playerName);
+            setTimeout(() => {
+              window.location.href = "/scoreboard";
+            }, 1500);
+          } else if (result.shouldShowError) {
+            toast({
+              title: "Submission Failed",
+              description: "Please try again later",
+              variant: "destructive",
+            });
+          }
         }
+      } catch (e) {
+        console.error('Error submitting score:', e);
       }
     }
   }, [checkQualifiesForTop10, submitScore, toast]);
@@ -637,7 +655,10 @@ const LettyRunGame = () => {
       {uiState.showStart && !uiState.showNativeMessage && (
         <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-sky-200/80 to-green-200/80 backdrop-blur-sm p-4">
           <div className="bg-white border-4 border-red-400 rounded-3xl p-6 w-full max-w-[380px] text-center shadow-2xl">
-            <h2 className="text-2xl font-black mb-3 text-red-400">🐰 {t.gameTitle} ❤️</h2>
+            <h2 className="text-2xl font-black mb-3 text-red-400 flex items-center justify-center gap-2">
+              <img src="/letty.webp" alt="Letty" className="w-10 h-10 object-contain" />
+              {t.gameTitle} ❤️
+            </h2>
             <div className="text-sm text-gray-700 mb-4 leading-relaxed bg-gradient-to-r from-rose-50 to-sky-50 p-3 rounded-xl">
               {t.objectiveDescription}<br />
               <span className="text-red-400 font-bold">{t.timeLimitDescription}</span><br />
@@ -679,7 +700,10 @@ const LettyRunGame = () => {
       {uiState.gameOver && (
         <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-sky-200/80 to-green-200/80 backdrop-blur-sm p-4">
           <div className="bg-white border-4 border-red-400 rounded-3xl p-6 w-full max-w-[380px] text-center shadow-2xl">
-            <h2 className="text-3xl font-black mb-3 text-red-400">{t.gameOverTitle} 🐰</h2>
+            <h2 className="text-3xl font-black mb-3 text-red-400 flex items-center justify-center gap-2">
+              {t.gameOverTitle}
+              <img src="/letty.webp" alt="Letty" className="w-10 h-10 object-contain" />
+            </h2>
             <div className="text-2xl mb-4 bg-gradient-to-r from-rose-50 to-sky-50 py-3 rounded-xl">
               {t.finalScoreText} <span className="font-black text-red-500">❤️ {uiState.score}</span>
             </div>

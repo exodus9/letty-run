@@ -126,16 +126,22 @@ export const requestGameStart = (): void => {
 };
 
 /**
- * Notify native app that game has ended
+ * Notify native app that game has ended and reward hearts
  */
 export const notifyGameEnd = (score: number): void => {
-  sendToNative({
-    type: 'GAME_END',
-    data: {
-      score,
-      timestamp: Date.now()
-    }
-  });
+  try {
+    sendToNative({
+      type: 'GAME_END',
+      data: {
+        score,
+        hearts: score, // 받은 점수만큼 하트 지급
+        reward: score,
+        timestamp: Date.now()
+      }
+    });
+  } catch (error) {
+    console.error('Error notifying game end:', error);
+  }
 };
 
 // Extend Window interface for TypeScript
