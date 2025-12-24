@@ -13,6 +13,13 @@ const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
+    // Preload webp images
+    const imagesToPreload = ['/bg.webp', '/letty.webp', '/rini.webp'];
+    imagesToPreload.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+
     // Initialize Google Analytics
     const gaId = import.meta.env.VITE_GA_ID;
     if (gaId) {
