@@ -127,9 +127,9 @@ export const useScoreboard = () => {
     const playerName = getNicknameFromUrlOrStorage();
 
     // Only submit scores that are 0 or higher
-    if (score < 0) {
-      return { success: false, shouldShowError: false };
-    }
+    // if (score < 0) {
+    //   return { success: false, shouldShowError: false };
+    // }
 
     try {
       // Check if player already has a score today
